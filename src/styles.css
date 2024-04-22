@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+  height: 100vh;
+  font-family: Arial;
+  margin: 0;
+  background-color: #eeeeee;
+}
+.flex {
+  display: flex;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.column{
+  flex-direction: column;
+}
+
+
+
+.nakedButton {
+  background: none;
+  margin: 0;
+  border: none;
+}

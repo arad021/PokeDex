@@ -1,0 +1,164 @@
+.pokemonBox {
+  background-color: #0092ca;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #393e46 ;
+  font-size: large;
+  font-weight: bold;
+
+}
+.pokemonImg{
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  height: 90%;
+  margin: 1rem;
+}
+
+.infoBox{
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #222831;
+  width: 30%;
+}
+
+
+.pokemonName{
+  padding: 1rem;
+  margin: 0;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.headline{
+  color: #0092ca;
+  font-weight: bold;
+}
+
+
+.infoLeft{
+  padding: 2rem;
+}
+
+.infoRight{
+  padding: 2rem;
+}
+
+.types{
+  padding: 2rem;
+}
+
+
+.normal {
+  background-color: #A8A77A;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.fire {
+  background-color: #EE8130;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.water {
+  background-color: #6390F0;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.electric {
+  background-color: #F7D02C;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.grass {
+  background-color: #7AC74C;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.ice {
+  background-color: #96D9D6;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.fighting {
+  background-color: #C22E28;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.poison {
+  background-color: #A33EA1;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.ground {
+  background-color: #E2BF65;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.flying {
+  background-color: #A98FF3;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.psychic {
+  background-color: #F95587;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.bug {
+  background-color: #A6B91A;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.rock {
+  background-color: #B6A136;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.ghost {
+  background-color: #735797;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.dragon {
+  background-color: #6F35FC;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.dark {
+  background-color: #705746;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.steel {
+  background-color: #B7B7CE;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}
+.fairy {
+  background-color: #D685AD;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0;
+}

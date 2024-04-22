@@ -1,0 +1,9 @@
+.headerContainer{
+  background-color: #222831;
+  height: 7%;
+  color: #eeeeee;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 5px#0092ca;
+  font-family: 'Pokemon Solid', sans-serif;
+}

@@ -1,0 +1,22 @@
+
+<app-header></app-header>
+
+
+@if(pokemons$ | async; as pokemons){
+<div class=" pokemonContainer flex">
+
+  @for( pokemon of pokemons; track pokemon){
+
+    <div class="pokemonBox" [routerLink]="['/pokemon', pokemon.name]">
+      <img class="pokemonImg" src="{{pokemon.sprites.front_default}}">
+      <p>{{pokemon.name}}</p>
+    </div>
+  }
+
+</div>
+
+
+
+}
+
+

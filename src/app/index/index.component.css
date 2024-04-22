@@ -1,0 +1,41 @@
+.pokemonBox {
+  background-color: #0092ca;
+  width: 15%;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 3rem;
+  border-radius: 5px;
+  box-shadow: 1rem 1rem #393e46;
+  color: #393e46 ;
+  font-family: 'Pokemon Solid', sans-serif;
+  font-size: large;
+  font-weight: bold;
+
+}
+.pokemonBox:hover{
+  transform: scale(1.05);
+}
+
+.pokemonImg{
+  background-color: white;
+  border-radius: 5px;
+  width: 70%;
+  height: 70%;
+  margin-top: 1rem;
+}
+
+.pokemonContainer{
+  flex-wrap: wrap;
+  padding: 5%;
+  justify-content: center;
+}
+
+.moreButton{
+  font-size: large;
+  color: #eeeeee;
+  background-color: #222831;
+  padding: 1rem;
+  border-radius: 5px;
+}
